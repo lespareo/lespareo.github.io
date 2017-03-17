@@ -1,0 +1,39 @@
+/******
++ COLORS:
+red: #cf002e
+blue: #cf002e
+grey: #525252
+
++ FONTS:
+text: Raleway
+titles: Open Sans Light
+
++ Spacing:
+vertical: 100px
+horizontal: 50px
+******/
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+html {
+  font-size: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'raleway';
+  font-size: 24px;
+  color: #525252;
+}
+
+header, footer, body > section {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'opensanslight';
+}
+p, li, a, caption {
+  font-family: 'raleway';
+}

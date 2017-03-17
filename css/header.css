@@ -1,0 +1,17 @@
+body > header {
+  background: #cf002e;
+}
+body > header ul {
+  text-align: right;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+body > header ul li {
+  display: inline-block;
+}
+body > header ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 26px;
+}
