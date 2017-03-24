@@ -1,0 +1,19 @@
+h1 {
+	@font-face : /*Open Sans{copier-coller le code css fourni par fontsquirrel}*/ ;
+	color: #cf002e;
+	text-decoration: underline;
+}
+p {
+	@font-face: /*Raleway*/;
+	color: #525252
+}
+
+div.intro1 {
+	display: inline-block;
+	width: 66%;
+}
+
+div.icon-intro {
+	display: inline-block;
+	width: 31%;
+}
