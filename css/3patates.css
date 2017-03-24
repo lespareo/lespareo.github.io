@@ -1,0 +1,21 @@
+.patate {
+	height: 100px;
+	width: 70px;
+	display: inline-block;
+	padding: 10px 50px;
+	margin: 3px;
+	background-color: white;
+	
+}
+.section {
+	background-color: #68bcbf;
+}
+#experience{
+	background-color: white;
+}
+.titre {
+	position: absolute;
+	right: 10px;
+	color: white;
+	text-decoration: underline;
+}
