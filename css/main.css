@@ -22,7 +22,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'ralewaythin';
+  font-family: 'ralewayregular';
   font-size: 24px;
   color: #525252;
 }
@@ -30,10 +30,11 @@ body {
 header, footer, body > section {
   padding-left: 30px;
   padding-right: 30px;
+  border-top: 87px;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: 'opensanslight';
 }
 p, li, a, caption {
-  font-family: 'ralewaythin';
+  font-family: 'ralewayregular';
 }
