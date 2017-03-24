@@ -30,10 +30,10 @@ body {
 header, footer, body > section {
   padding-left: 30px;
   padding-right: 30px;
-  border-top: 87px;
+/*Wa-leej à touché à ça*/
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'opensanslight';
+  font-family: 'open_sanslight';
 }
 p, li, a, caption {
   font-family: 'ralewayregular';
