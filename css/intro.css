@@ -1,3 +1,4 @@
+
 h1 {
 	@font-face : /*Open Sans{copier-coller le code css fourni par fontsquirrel}*/ ;
 	color: #cf002e;
@@ -17,3 +18,9 @@ div.icon-intro {
 	display: inline-block;
 	width: 31%;
 }
+
+section#intro {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
