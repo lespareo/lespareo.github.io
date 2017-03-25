@@ -28,6 +28,7 @@ body > header ul li a {
 }
 li{
 	font-size:'open_sanslight';
+  margin-right: 41px;
 }
 li:hover {
 	font-size: 'open_sansextrabold';
