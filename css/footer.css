@@ -1,0 +1,16 @@
+body > footer {
+	background: #cf002e;
+	text-align: right;
+	height: 85px;
+	line-height: 85px;
+	}
+footer a {
+	color: #FFFFFF;
+}
+body > footer a:hover {
+	text-decoration: underline;
+	}
+body > footer a {
+	text-decoration: none;
+	margin-right: 42px;
+}
