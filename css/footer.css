@@ -4,4 +4,8 @@ body > footer{
 	}
 footer a {
 	color: #FFFFFF;
+	text-decoration: none;
+}
+body > footer a:hover {
+	text-decoration: underline;
 }

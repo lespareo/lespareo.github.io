@@ -1,11 +1,9 @@
 
 h1 {
-	@font-face : /*Open Sans{copier-coller le code css fourni par fontsquirrel}*/ ;
 	color: #cf002e;
 	text-decoration: underline;
 }
 p {
-	@font-face: /*Raleway*/;
 	color: #525252
 }
 
@@ -23,4 +21,3 @@ section#intro {
 	padding-left: 50px;
 	padding-right: 50px;
 }
-
