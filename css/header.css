@@ -4,7 +4,7 @@ body > header {
   line-height: 85px;
 
 }
-body > header > img {
+body > header img {
 	float: left; /* à repositionner quand logo*/
 }
 body > header ul {
@@ -15,6 +15,7 @@ body > header ul {
 }
 body > header ul li {
   display: inline-block;
+  font-size:'open_sanslight';
 }
 body > header ul li a {
   color: #ffffff;
@@ -22,11 +23,7 @@ body > header ul li a {
   font-size: 26px;
   margin-right: 42px;
 }
-li{
-	font-size:'open_sanslight';
-  margin-right: 41px;
-}
-li:hover {
+body > header ul li:hover {
 	font-size: 'open_sansextrabold';
 	color: white;
 	text-decoration: underline;

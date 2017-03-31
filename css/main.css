@@ -38,3 +38,8 @@ h1, h2, h3, h4, h5, h6 {
 p, li, a, caption {
   font-family: 'ralewayregular';
 }
+
+div.wrapper {
+  width: 1024px;
+  margin: 0 auto;
+}

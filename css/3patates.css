@@ -1,21 +1,22 @@
-.patate {
-	height: 100px;
-	width: 70px;
+section.acteurs {
+	background-color: #68bcbf;
+}
+section.acteurs > div.wrapper {
+		padding: 25px;
+}
+
+section.acteurs .patate {
+	width: 49%;
 	display: inline-block;
+	vertical-align: top;
 	padding: 10px 50px;
 	margin: 3px;
 	background-color: white;
-	
+
 }
-.section {
-	background-color: #68bcbf;
-}
-#experience{
-	background-color: white;
-}
-.titre {
-	position: absolute;
-	right: 10px;
+
+section.acteurs > div.wrapper > h1 {
+	text-align: right;
 	color: white;
 	text-decoration: underline;
 }

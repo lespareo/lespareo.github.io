@@ -1,8 +1,9 @@
-body > footer{
+body > footer {
 	background: #cf002e;
 	text-align: right;
-	}
-footer a {
+}
+
+body > footer a {
 	color: #FFFFFF;
 	text-decoration: none;
 }
