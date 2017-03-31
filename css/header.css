@@ -20,17 +20,15 @@ body > header ul li a {
   color: #ffffff;
   text-decoration: none;
   font-size: 26px;
-<<<<<<< HEAD
-  margin-right: 42px;
-=======
-  
->>>>>>> FETCH_HEAD
 }
-li{
+body > header ul li {
 	font-size:'open_sanslight';
   margin-right: 41px;
+  border-style: solid;
+  border-color: black;
+  border-bottom-width: 5px;
 }
-li:hover {
+body > header ul li:hover {
 	font-size: 'open_sansextrabold';
 	color: white;
 	text-decoration: underline;
