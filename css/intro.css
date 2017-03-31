@@ -1,3 +1,7 @@
+section.intro {
+	padding-left: 50px;
+	padding-right: 50px;
+}
 
 h1 {
 	color: #cf002e;
@@ -15,9 +19,4 @@ div.intro1 {
 div.icon-intro {
 	display: inline-block;
 	width: 31%;
-}
-
-section#intro {
-	padding-left: 50px;
-	padding-right: 50px;
 }

@@ -4,8 +4,11 @@ body > footer {
 }
 
 body > footer a {
+	height: 85px;
+	line-height: 85px;
 	color: #FFFFFF;
 	text-decoration: none;
+	margin-right: 42px;
 }
 body > footer a:hover {
 	text-decoration: underline;

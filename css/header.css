@@ -16,6 +16,10 @@ body > header ul {
 body > header ul li {
   display: inline-block;
   font-size:'open_sanslight';
+  margin-right: 41px;
+  border-style: solid;
+  border-color: black;
+  border-bottom-width: 5px;
 }
 body > header ul li a {
   color: #ffffff;
