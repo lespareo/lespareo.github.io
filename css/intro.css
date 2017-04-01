@@ -20,3 +20,7 @@ div.icon-intro {
 	display: inline-block;
 	width: 31%;
 }
+div.icon-intro i.fa {
+	font-size: 110px;
+	color: #525252;
+}

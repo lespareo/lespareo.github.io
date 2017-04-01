@@ -4,7 +4,6 @@ section.acteurs {
 section.acteurs > div.wrapper {
 		padding: 25px;
 }
-
 section.acteurs .patate {
 	width: 49%;
 	display: inline-block;
@@ -13,9 +12,7 @@ section.acteurs .patate {
 	margin: 3px;
 	background-color: white;
 }
-
 section.acteurs > div.wrapper > h1 {
-	text-align: right;
 	color: white;
 	text-decoration: underline;
 }

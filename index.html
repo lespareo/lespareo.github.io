@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
 
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/header.css">
@@ -11,6 +12,8 @@
     <link rel="stylesheet" href="css/3patates.css">
     <link rel="stylesheet" href="css/intro.css">
 
+    <script src="js/main.js" charset="utf-8"></script>
+
    <title>Site du projet étudiants PaRéO</title>
   </head>
   <body>
@@ -18,7 +21,7 @@
     <div class="wrapper">
       <img src="image/logo.jpg">
       <nav> <!-- on divise notre page en étages et avec la navbar on passe d'étage en étage -->
-        <ul>
+        <ul class="align-right">
           <li><a href="#intro">Intro</a></li>
           <li><a href="#acteurs">Acteurs</a></li>
           <li><a href="#experience">Expérience</a></li>
@@ -36,8 +39,12 @@
               <p > Ce site est issu d’un projet d’apprentissage du code informatique né de la collaboration entre quelques étudiants du DU PaRéO et le club de code du CRI (Centres de Recherches Interdisciplinaires).
               Il s’agit d’une formation par des étudiants pour des étudiants pour se familiariser avec les bases du code, de l’intégration web et du web design.</p>
           </div>
-         <div class="icon-intro"> <img src="images/hat.png"></div>
-         <div class="icon-intro" ><img src="images/flacon.png"></div>
+         <div class="icon-intro align-right">
+           <i class="fa fa-graduation-cap"></i>
+         </div>
+         <div class="icon-intro" >
+           <i class="fa fa-flask"></i>
+         </div>
           <div class="intro1">
             <p > Le but est de montrer que l’on n’a pas besoin d’un diplôme universitaire pour s’orienter.
           Ce site se présente sous la forme d’articles expliquant les activités du DU, comment se réorienter, pourquoi se réorienter, ...
@@ -48,7 +55,7 @@
 
     <section class="acteurs">
       <div class="wrapper">
-        <h1>acteurs</h1>
+        <h1 class="align-right">acteurs</h1>
 
         <div class="patate">
         <p> Nous sommes 4 étudiants du DU PAREO, un diplôme universitaire un peu particulier : il n’est pas spécialisé dans une matière quelconque mais porte sur un ensemble de méthodologies pour trouver son orientation professionnelle. En effet le DU se veut une année de réflexion active sur notre future carrière.
@@ -72,7 +79,7 @@
   <footer>
     <div class="wrapper">
       <a href="adresse Medium">contact</a>
-      <a href="troll"> AHAHAHA </a>
+      <a href="troll" onclick="trollLinks(); return false;"> AHAHAHA </a>
       <a href="mentions légales"> mentions légales </a>
     </div>
   </footer>

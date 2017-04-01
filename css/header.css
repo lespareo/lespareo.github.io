@@ -1,15 +1,12 @@
 body > header {
   background: #cf002e;
   height: 85px;
-  line-height: 85px;
-
 }
 body > header img {
 	float: left; /* à repositionner quand logo*/
 }
 body > header ul {
-  text-align: right;
-  padding: 0;
+  padding: 25px 0 0 0;
   margin: 0;
   list-style: none;
 }
@@ -17,18 +14,20 @@ body > header ul li {
   display: inline-block;
   font-size:'open_sanslight';
   margin-right: 41px;
-  border-style: solid;
-  border-color: black;
-  border-bottom-width: 5px;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+  transition: border-bottom .1s;
 }
 body > header ul li a {
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
   font-size: 26px;
-  margin-right: 42px;
+  transition: color .2s;
 }
 body > header ul li:hover {
 	font-size: 'open_sansextrabold';
-	color: white;
-	text-decoration: underline;
+  border-bottom: 3px solid rgba(255, 255, 255, 1);
+}
+body > header ul li:hover a {
+  color: rgba(255, 255, 255, 1);
 }
