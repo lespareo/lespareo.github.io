@@ -1,16 +1,33 @@
 body > footer {
 	background: #cf002e;
+	height: 85px;
 	text-align: right;
 }
 
-body > footer a {
-	height: 85px;
-	line-height: 85px;
-	color: #FFFFFF;
+body > footer li {
+	display: inline-block;
+	list-style: none;
+}
+
+body > footer li a {
+	color: rgba(255, 255, 255, 0.8);
 	text-decoration: none;
-	margin-right: 42px;
+	font-size: 'open_sanslight';
+	font-size: 26px;
+	line-height: 85px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+	transition: border-bottom .1s;
+	transition: color .2s;
 }
-body > footer a:hover {
-	text-decoration: underline;
+body > footer li a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  margin-right: 41px;
 }
-:hover
+body > footer li a:hover {
+  font-size: 'open_sansextrabold';
+  border-bottom: 3.5px solid rgba(255, 255, 255, 1);
+}
+body > footer li:hover a{
+  color: rgba(255, 255, 255, 1);
+}
